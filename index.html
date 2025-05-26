@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <img src="https://img.icons8.com/ios-filled/50/000000/rocket--v1.png" alt="Logo" style="height: 40px;">
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+    <section class="hero" id="home">
+        <div class="container hero-container">
+            <h1>Welcome to Our Landing Page</h1>
+            <p>Discover our amazing services and get started today!</p>
+            <a href="#contact" class="cta-btn">Get Started</a>
+        </div>
+    </section>
+    <footer>
+        <div class="container footer-container">
+            <p>&copy; 2024 MyCompany. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com/harshahegde123"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub" /></a>
+                <a href="https://x.com/HarshaH313180"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/twitter.svg" alt="Twitter" /></a>
+                <a href="https://www.linkedin.com/in/harsha-h-205b76327?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" /></a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        // Mobile menu toggle
+        const menuToggle = document.getElementById('mobile-menu');
+        const navLinks = document.querySelector('.nav-links');
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
