@@ -41,13 +41,6 @@ Build a clean and responsive landing page using HTML and CSS that includes:
 - ✅ Social media footer icons
 - ✅ Mobile-first responsiveness using media queries
 
----
-
-## 📸 Preview
-
-![Preview Screenshot](preview.png) <!-- Optional: Add a screenshot of the project -->
-
----
 
 ## 📚 Key Concepts Covered
 
@@ -66,8 +59,4 @@ Build a clean and responsive landing page using HTML and CSS that includes:
 [GitHub](https://github.com/harshahegde123) | [Twitter](https://x.com/HarshaH313180) | [LinkedIn](https://www.linkedin.com/in/harsha-h-205b76327)
 
 ---
-
-## 📄 License
-
-This project is for educational purposes and open to use under the [MIT License](LICENSE).
 
